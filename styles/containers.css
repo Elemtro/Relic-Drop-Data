@@ -1,0 +1,156 @@
+.header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.beginning {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: rgb(39, 39, 39);*/
+}
+
+.text-container{
+    display: block;
+    margin-bottom: 35px;
+}
+
+.middle-section{
+    margin-top: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+ /*   background-color:rgb(39, 39, 39); */
+}
+
+@media (max-width: 6000px) {
+    .middle-section {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+    .result
+    {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+}
+
+@media (max-width: 1506px) {
+    .middle-section {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .result {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}
+
+@media (max-width: 1210px) {
+    .middle-section {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .result {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 914px) {
+    .middle-section {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .result {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .empty-field{
+        font-size: 16px;
+    }
+    .empty-field::after {
+        content: '\A';
+        white-space: pre;
+    }
+}
+
+@media (max-width: 740px)
+{
+    .middle-section
+    {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    .content-table th,
+    .content-table td {
+        padding: 18px 20px;
+    }
+
+    .content-table th {
+        font-size: 12px;
+    }
+
+    .content-table {
+        font-size: 10px;
+    }
+    .welcome-txt {
+        font-size: 40px;
+        margin-bottom: 14px;
+    }
+
+    .text2 {
+        font-size: 16px;
+    }
+
+    .search-bar {
+        font-size: 16px;
+    }
+
+    .search-button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .middle-section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .result {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+
+@media (max-width: 420px) {
+    .middle-section {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .result {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .middle-section {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .result {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
