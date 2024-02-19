@@ -3,12 +3,12 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     if (isset($_GET["query"]) && strlen($_GET["query"]) >= 2) {
         $value_to_find = sanitizer(); // filter user input
 
-        $user = 'andrii';
-        $password = 'hN1tD3cB5d';
+        $user = ; // add your db username
+        $password = ; //add your db username password
 
         try {  //database main logic
             $pdo = new PDO(
-                'mysql:host=127.0.0.1;port=3310;dbname=neptun',
+                'mysql:host=;port=;dbname=', //add your MySql server host, port and name of your database
                 $user,
                 $password
             );
