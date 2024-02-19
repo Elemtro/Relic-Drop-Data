@@ -7,7 +7,6 @@
     <meta name="description" content="Explore Warframe relic drop chances with Relic DropData. Stay updated with the latest information and visit us on GitHub!" />
     <title>Relics DropData</title>
 
-    <meta name="google-site-verification" content="FvQbD9vCNYBvGKGPwYFxYEPogb9klhNOE2WIMQiOyyk">
     <meta name="keywords" content="Warframe, Relics, Relic Farming, Prime Parts, Void Relics, Lith Relics, Meso Relics, Neo Relics, Axi Relics, Relic Refinement, Relic Rarity, Prime Warframes, Prime Weapons, Ducats Farming, Void Fissures, Relic Rotation, Relic Rewards, Relic Vaulted Items, Relic Trading">
     <meta name="author" content="Andrii">
     <meta name="robots" content="index, follow">
@@ -28,7 +27,7 @@
             <img src="images/AxiRelicIntact.webp" alt="Axi relic logo" class="relic-logo">
             <p class="text">Relic Drop Data</p>
         </div>
-        <a href="https://stupodovo.com">
+        <a href="https://github.com/Elemtro/Relic-Drop-Data">
             <img src="images\github-mark-white.png" alt="GitHub logo" class="git-logo">
         </a>
     </div>
