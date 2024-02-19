@@ -29,6 +29,7 @@ Contributions to the Warframe Relic Drop Tracker are welcome! Whether it's fixin
 ## Feedback and Support
 
 If you have any feedback, suggestions, or encounter any issues while using the Warframe Relic Drop Tracker, please feel free to open an issue or reach out to the project maintainers. 
+
 Email: and.lykhvar@gmail.com
 
 ## License
